@@ -32,6 +32,7 @@ class Member(object):
 class Population(object):
     '''
     genetic Population with evolution features
+    TODO: the parameters has to be described
     '''
     def __init__(self,
                  secret_word,
@@ -70,6 +71,7 @@ class Population(object):
     def _generate_char_set(self):
         '''
         Generates the default char set, the members can use for guessing
+        to do - the char_set should be improved
         '''
         return list(string.ascii_lowercase) + [' ', '.', '!', ',', ';']
 
